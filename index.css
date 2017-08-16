@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#game{
+    width: 450px;
+    height: 630px;
+    margin: 0 auto;
+    background: url("img/game.jpg");
+    background-repeat: no-repeat;
+}
+#game .gameTop{
+    position: absolute;
+    font-size: 16px;
+    left: 480px;
+    top:20px;
+    color: #0E68B1;
+    z-index: 2;
+}
+#game #homePage{
+    width: 450px;
+    height: 630px;
+}
+#game .gameBottom{
+    position: relative;
+    width: 450px;
+    height: 50px;
+    left: 0px;
+    top: -250px;
+}
+#game .gameBottom #startBtn{
+    text-decoration: none;
+    display: block;
+    margin: 10px auto;
+    width:117px;
+    height: 30px;
+}
+#game .gameBottom #startBtn img{
+    width: 117px;
+    height: 30px;
+}
+#game .gameBottom .mode{
+    position: absolute;
+    font-size: 16px;
+    color: white;
+}
+#game .gameBottom .keyMode{
+    top: 0;
+    right: 50px;
+}
+#game .gameBottom .mouseMode{
+    left: 50px;
+}
+.plane{
+    width: 60px;
+    height: 80px;
+    position: absolute;
+    cursor: none;
+    z-index: 2;
+}
+.shield{
+    width: 60px;
+    height: 80px;
+    position: absolute;
+    cursor: none;
+}
+.ball{
+    width: 15px;
+    /*height: 20px;*/
+    position: absolute;
+}
+.enemy{
+    position: absolute;
+}
+.enemyBall{
+    width: 15px;
+    /*height: 25px;*/
+    position: absolute;
+}
